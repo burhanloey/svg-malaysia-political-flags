@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+}
+
+figure {
+    width: 27%;
+    float: left;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+}
