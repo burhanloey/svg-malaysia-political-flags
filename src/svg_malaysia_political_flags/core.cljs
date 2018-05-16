@@ -1,5 +1,6 @@
 (ns svg-malaysia-political-flags.core
   (:require [reagent.core :as r]
+            [svg-malaysia-political-flags.flags.dap :refer [dap]]
             [svg-malaysia-political-flags.flags.pkr :refer [pkr]]))
 
 (enable-console-print!)
@@ -11,7 +12,7 @@
     [:p "Disclaimer: I'm not the artist. All SVGs are taken from Wikipedia."]]
    [:article
     [:section
-     [pkr]
+     [dap]
      [pkr]
      [pkr]]
     [:section

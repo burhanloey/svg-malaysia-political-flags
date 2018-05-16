@@ -7,6 +7,10 @@ header {
     text-align: center;
 }
 
+section {
+    display: inline-block;
+}
+
 figure {
     width: 27%;
     float: left;
