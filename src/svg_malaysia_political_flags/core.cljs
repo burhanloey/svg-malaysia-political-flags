@@ -2,7 +2,8 @@
   (:require [reagent.core :as r]
             [svg-malaysia-political-flags.flags.amanah :refer [amanah]]
             [svg-malaysia-political-flags.flags.dap :refer [dap]]
-            [svg-malaysia-political-flags.flags.pkr :refer [pkr]]))
+            [svg-malaysia-political-flags.flags.pkr :refer [pkr]]
+            [svg-malaysia-political-flags.flags.ppbm :refer [ppbm]]))
 
 (enable-console-print!)
 
@@ -17,6 +18,6 @@
      [pkr]
      [amanah]]
     [:section
-     [pkr]]]])
+     [ppbm]]]])
 
 (r/render [content] (js/document.getElementById "app"))
