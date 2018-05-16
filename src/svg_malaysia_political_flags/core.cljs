@@ -1,5 +1,6 @@
 (ns svg-malaysia-political-flags.core
   (:require [reagent.core :as r]
+            [svg-malaysia-political-flags.flags.amanah :refer [amanah]]
             [svg-malaysia-political-flags.flags.dap :refer [dap]]
             [svg-malaysia-political-flags.flags.pkr :refer [pkr]]))
 
@@ -14,7 +15,7 @@
     [:section
      [dap]
      [pkr]
-     [pkr]]
+     [amanah]]
     [:section
      [pkr]]]])
 
